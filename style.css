@@ -340,3 +340,44 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 .border-change:vi{
   border: none;
 }
+.show-on-sml{
+  display: none;
+}
+@media (max-width: 500px)   {
+  .hide-on-sml{
+    display: none !important;
+  }
+  .show-on-sml{
+    display: unset;
+    top: 36px;
+
+
+  }
+}
+@media (max-width: 1250px)   {
+.gap-set{
+  gap: 6rem;
+}
+}
+@media (max-width: 1000px)   {
+  .gap-set{
+    gap: 2rem;
+  }
+  }
+  
+@media (max-width: 800px)   {
+  .gap-set{
+    gap:6rem;
+  }
+  .card-set-sml{
+    display: flex;
+  }
+  .card-set-sml div{
+    width: 50%;
+
+  }
+  .card-set-sml div .bordr {
+    border-right: 0.5px solid #6F8B99;
+    padding: 0px 12px 0px 0px ;
+  }
+  }
